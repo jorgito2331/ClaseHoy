@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +16,8 @@
     "babel-eslint": "^10.0.1",
     "nodemon": "^1.18.10",
     "standard": "^12.0.1"
+  },
+  "standard": {
+    "parser": "babel-eslint"
   }
 }
